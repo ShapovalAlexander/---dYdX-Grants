@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+	<title>Discover initiatives</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Space+Mono&family=Urbanist:wght@400;500;700&display=swap" rel="stylesheet">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+	<a href="./dYdX Grants.html" class="header__logo">
+		<img src="./img/logos/logo.svg" alt="logo icon">
+	</a>
+	<nav class="header__menu menu__body">
+		<ul class="menu__list">
+			<li class="list__item">
+				<a href="./discover.html" class="list__link">Discover initiatives</a>
+			</li>
+			<li class="list__item">
+				<a href="./funded_grants.html" class="list__link">Funded grants</a>
+			</li>
+			<li class="list__item">
+				<a href="./program_expenses.html" class="list__link">Program expenses</a>
+			</li>
+			<li class="list__item">
+				<a href="./blog.html" class="list__link">Blog</a>
+			</li>
+			<li class="list__item">
+				<a href="./faq.html" class="list__link">FAQ</a>
+			</li>
+		</ul>
+	</nav>
+	<a href="" class="header__button button">Apply <span> for grant</span></a>
+	<div class="icon-menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+</header>
+        <main class="page">
+            <section class="rfp">
+                <div class="rfp__container _container">
+                    <header class="rfp__header block-header">
+                        <h2 class="rfp__title header-title">Discover initiatives (RFPs)</h2>
+                        <div class="rfp__text header-text">
+                            <p>The list below includes initial ideas that we think could make excellent Grants. This is
+                                a living list that will continue to update as ideas popup.</p>
+                        </div>
+                    </header>
+                    <div class="rfp__tabs tabs-rfp">
+                        <nav class="tabs-rfp__nav tab-nav">
+                            <button data-tab="#tab_1" type="button" class="tabs-rfp__button tab-button _active">All</button>
+                            <button data-tab="#tab_2" type="button" class="tabs-rfp__button tab-button">Open</button>
+                            <button data-tab="#tab_3" type="button" class="tabs-rfp__button tab-button">Funded</button>
+                            <button data-tab="#tab_4" type="button" class="tabs-rfp__button tab-button">Completed</button>
+                        </nav>
+                        <div class="tabs-rfp__body">
+                            <div id="tab_1" class="tabs-rfp__content tabs-content _active">
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Funding Rate Page</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Page that provides a live look at all funding rates with
+                                        popular timeframes in annualized format</div>
+                                    <div class="tabs-rfp__price">Funding amount: $45,000 - $85,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">CLI Trading Tool</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Self-hosted CLI tool leveraging the dYdX API to allow all functionalities from a terminal</div>
+                                    <div class="tabs-rfp__price">Funding amount: $25,000 - $45,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_open">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">New Language SDKs</h2>
+                                        <div class="tabs-rfp__blank">Open</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Replicate existing Python SDK to new programming languages with all the same features</div>
+                                    <div class="tabs-rfp__price">Funding amount: $25,000 - $40,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_completed">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Liquidation Alert Tool</h2>
+                                        <div class="tabs-rfp__blank">Completed</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Self-hosted tool that alerts the trader of upcoming liquidation prices across multiple messaging venues</div>
+                                    <div class="tabs-rfp__price">Funding amount: $30,000 - $50,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Governance Dashboard</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Governance page to promote  discussions, proposals, delegation and voting</div>
+                                    <div class="tabs-rfp__price">Funding amount: $15,000 - $20,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Delegation Tool</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Webpage to allow active participants to market their voting and enable direct delegation from DYDX holders</div>
+                                    <div class="tabs-rfp__price">Funding amount: $15,000 - $30,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Newsletter</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Weekly or Monthly newsletters promoting and educating the dYdX platform</div>
+                                    <div class="tabs-rfp__price">Funding amount: $10,000 - $20,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Academy Contributions</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Webpages, Courses, Glossaries and Youtube libraries educating new users on dYdX</div>
+                                    <div class="tabs-rfp__price">Funding amount: $10,000 - $25,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_open">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Discord bots</h2>
+                                        <div class="tabs-rfp__blank">Open</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Additional Discord bots that notify members of activity on dYdX and governance</div>
+                                    <div class="tabs-rfp__price">Funding amount: $5,000 - $10,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Reward tracking & Simulator</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Page or tool that allows traders to calculate future rewards and simulate earnings from activity</div>
+                                    <div class="tabs-rfp__price">Funding amount: $20,000 - $35,000</div>
+                                </article>
+                            </div>
+                            <div id="tab_2" class="tabs-rfp__content tabs-content">
+                                <article class="tabs-rfp__item tabs-rfp__item_open">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">New Language SDKs</h2>
+                                        <div class="tabs-rfp__blank">Open</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Replicate existing Python SDK to new programming languages with all the same features</div>
+                                    <div class="tabs-rfp__price">Funding amount: $25,000 - $40,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_open">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Discord bots</h2>
+                                        <div class="tabs-rfp__blank">Open</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Additional Discord bots that notify members of activity on dYdX and governance</div>
+                                    <div class="tabs-rfp__price">Funding amount: $5,000 - $10,000</div>
+                                </article>
+                            </div>
+                            <div id="tab_3" class="tabs-rfp__content tabs-content">
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Funding Rate Page</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Page that provides a live look at all funding rates with
+                                        popular timeframes in annualized format</div>
+                                    <div class="tabs-rfp__price">Funding amount: $45,000 - $85,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">CLI Trading Tool</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Self-hosted CLI tool leveraging the dYdX API to allow all functionalities from a terminal</div>
+                                    <div class="tabs-rfp__price">Funding amount: $25,000 - $45,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Governance Dashboard</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Governance page to promote  discussions, proposals, delegation and voting</div>
+                                    <div class="tabs-rfp__price">Funding amount: $15,000 - $20,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Delegation Tool</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Webpage to allow active participants to market their voting and enable direct delegation from DYDX holders</div>
+                                    <div class="tabs-rfp__price">Funding amount: $15,000 - $30,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Newsletter</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Weekly or Monthly newsletters promoting and educating the dYdX platform</div>
+                                    <div class="tabs-rfp__price">Funding amount: $10,000 - $20,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Academy Contributions</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Webpages, Courses, Glossaries and Youtube libraries educating new users on dYdX</div>
+                                    <div class="tabs-rfp__price">Funding amount: $10,000 - $25,000</div>
+                                </article>
+                                <article class="tabs-rfp__item tabs-rfp__item_funded">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Reward tracking & Simulator</h2>
+                                        <div class="tabs-rfp__blank">Funded</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Page or tool that allows traders to calculate future rewards and simulate earnings from activity</div>
+                                    <div class="tabs-rfp__price">Funding amount: $20,000 - $35,000</div>
+                                </article>
+                            </div>
+                            <div id="tab_4" class="tabs-rfp__content tabs-content">
+                                <article class="tabs-rfp__item tabs-rfp__item_completed">
+                                    <header class="tabs-rfp__header">
+                                        <h2 class="tabs-rfp__title">Liquidation Alert Tool</h2>
+                                        <div class="tabs-rfp__blank">Completed</div>
+                                    </header>
+                                    <div class="tabs-rfp__text">Self-hosted tool that alerts the trader of upcoming liquidation prices across multiple messaging venues</div>
+                                    <div class="tabs-rfp__price">Funding amount: $30,000 - $50,000</div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="letscreate">
+				<div class="letscreate__container _container">
+					<div class="letscreate__sub-title">Have a project in mind?</div>
+					<h2 class="letscreate__title header-title">Let’s create something awesome.</h2>
+					<a href="" class="letscreate__button header-link">Apply for grant</a>
+				</div>
+			</section>
+        </main>
+        <footer class="footer">
+	<a href="" class="footer__logo">
+		<img src="./img/logos/logo-x.svg" alt="footer logo-x">
+	</a>
+	<nav class="footer__menu menu">
+		<ul class="footer__list">
+			<li class="footer__item">
+				<a href="#" class="footer__link">About</a>
+			</li>
+			<li class="footer__item">
+				<a href="#" class="footer__link">FAQ</a>
+			</li>
+			<li class="footer__item">
+				<a href="#" class="footer__link">Brand assets</a>
+			</li>
+			<li class="footer__item">
+				<a href="#" class="footer__link footer__link_icon">dYdX Foundation</a>
+			</li>
+			<li class="footer__item">
+				<a href="#" class="footer__link footer__link_icon">dYdX trading</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="footer__icons">
+		<a href="" class="footer__icon">
+			<img src="./img/footer/twitter.svg" alt="twitter icon">
+		</a>
+		<a href="" class="footer__icon">
+			<img src="./img/footer/discord.svg" alt="discord icon">
+		</a>
+	</div>
+</footer>
+    </div>
+    <!-- Swiper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
